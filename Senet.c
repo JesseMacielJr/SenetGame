@@ -1,4 +1,4 @@
-//Nome: JessÈ de Paula Maciel J˙nior.     Matricula: 2019005014       ECO 2019
+//Nome: Jess√© de Paula Maciel J√∫nior. ECO 2019
 
 #include <stdio.h>
 #include <time.h>
@@ -9,11 +9,11 @@
 char v1[30]= {'O','X','O','X','O','X','O','X','O','X',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','A','B','C','D','E'};
 int cont1=5,cont2=5;
 
-typedef struct      //Struct que auxilia na movimentaÁ„o das peÁas
+typedef struct      //Struct que auxilia na movimenta√ß√£o das pe√ßas
 {
     int col;
 } t_jogador;
-void imprime()    // FunÁ„o que imprime o tabuleiro
+void imprime()    // Fun√ß√£o que imprime o tabuleiro
 {
     int i;
 
@@ -49,7 +49,7 @@ void imprime()    // FunÁ„o que imprime o tabuleiro
     printf("\n");
     printf("\n");
 }
-void instrucoes()       // Printa as instruÁıes do jogo
+void instrucoes()       // Printa as instru√ß√µes do jogo
 {
     printf(" _______________________________________________________________________________________   R E G R A S  D O  J O G O   _______________________________________________________________________________________\n");
     printf("|                                                                                                                                                                                                             |\n");
@@ -58,7 +58,7 @@ void instrucoes()       // Printa as instruÁıes do jogo
     printf("|                                                                                                                                                                                                             |\n");
     printf("|[2]- Os jogadores lancam alternadamente os estiletes ate que um deles obtenha 1. Esse jogador fica com as pecas posicionadas nas casas de numeracao par. O mesmo jogador lanca os estiletes e joga de novo.  |\n");
     printf("|                                                                                                                                                                                                             |\n");
-    printf("|[3]- Se o lancamento for de 1, 4 ou 6, o jogador move uma das suas pecas o correspondente numero de casas e lanÁa de novo os estiletes.                                                                      |\n");
+    printf("|[3]- Se o lancamento for de 1, 4 ou 6, o jogador move uma das suas pecas o correspondente numero de casas e lan√ßa de novo os estiletes.                                                                      |\n");
     printf("|                                                                                                                                                                                                             |\n");
     printf("|[4]- Se o lancamento for de 2,3 ou 5, o jogador move uma das suas pecas e passa a vez.                                                                                                                       |\n");
     printf("|                                                                                                                                                                                                             |\n");
@@ -99,7 +99,7 @@ void curiosidades()     //Printa as curiosidades do jogo
     printf("\n");
     printf("\n");
 }
-void creditos()         //Printa os crÈditos do jogo
+void creditos()         //Printa os cr√©ditos do jogo
 {
     printf(" ____________________________   C R E D I T O S   __________________________\n");
     printf("|                                                                           |\n");
@@ -182,10 +182,10 @@ int sorteioEstilete()  // Sorteia os estiletes durante o jogo
     est=rand()%6 + 1;
     return est;
 }
-void movimentacao(int sorteio,t_jogador player[30],int jogador)  // Mec‚nica do jogo
+void movimentacao(int sorteio,t_jogador player[30],int jogador)  // Mec√¢nica do jogo
 {
     int i,dono,novo,c;
-    while(1)      //Utilizado para quando o jogador seleciona uma peÁa inv·lida ou algum movimento n„o permitido
+    while(1)      //Utilizado para quando o jogador seleciona uma pe√ßa inv√°lida ou algum movimento n√£o permitido
     {
         printf("Deseja movimentar qual peca? ");
         scanf("%d",&c);
@@ -313,7 +313,7 @@ void movimentacao(int sorteio,t_jogador player[30],int jogador)  // Mec‚nica do 
                         }
                     }
                 }
-                if(novo==26)  //A Casa de ¡gua      //Regra Numero 8
+                if(novo==26)  //A Casa de √Ågua      //Regra Numero 8
                 {
                     if(dono==1)
                     {
@@ -346,7 +346,7 @@ void movimentacao(int sorteio,t_jogador player[30],int jogador)  // Mec‚nica do 
                         }
                     }
                 }
-                if(novo==27)  //Casa das TrÍs Verdades      //Regra Numero 9
+                if(novo==27)  //Casa das Tr√™s Verdades      //Regra Numero 9
                 {
                     if(dono==1)
                     {
