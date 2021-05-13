@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://pt.wikipedia.org/wiki/Senet"><img src="http://www.luduscience.com/images/senet.jpg" alt="Senet"></a>
+</p>
+
 # Metodologia
 Este jogo foi feito como trabalho para a disciplina de "Laboratório de Técnicas de Programação" na Universidade Federal de Itajubá (UNIFEI) durante o meu primeiro período de curso (Engenharia de Computação) no ano de 2019. Tal projeto foi de grande importância para me ajudar a consolidar os conceitos aprendidos em sala de aula, visto que, no momento da criação do código, eu me encontrava com uma grande dificuldade para progredir no desenvolvimento do game.
 
